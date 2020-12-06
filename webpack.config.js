@@ -103,7 +103,7 @@ module.exports = {
   entry,
   output: {
     publicPath: '/',
-    path: `${__dirname}/build`,
+    path: `${__dirname}/dist`,
     filename: '[name].js',
     libraryTarget: (mode === 'production') ? 'commonjs2' : 'var',
   },
@@ -247,7 +247,7 @@ module.exports = {
   plugins,
   devtool: (mode === 'production') ? false : 'source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'build'),
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     host: '0.0.0.0',
     port: 9000,
