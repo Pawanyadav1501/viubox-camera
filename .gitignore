@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+docs/
+designs/
+.idea/
+.npmrc
+dist
+dist/*
