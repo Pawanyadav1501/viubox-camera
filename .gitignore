@@ -4,3 +4,5 @@ docs/
 designs/
 .idea/
 .npmrc
+dist
+dist/*

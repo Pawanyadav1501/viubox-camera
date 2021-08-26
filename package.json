@@ -16,7 +16,7 @@
   },
   "author": "Pawan",
   "main": "build/index.js",
-  "homepage": "https://pawanyadav1501.github.io/viubox-camera/src",
+  "homepage": "https://pawanyadav1501.github.io/viubox-camera",
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
